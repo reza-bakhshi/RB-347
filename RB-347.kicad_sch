@@ -4854,6 +4854,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 107.95) (xy 222.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f32d963-4a7b-4c9d-a29c-42a56cf4db4a")
+	)
+	(wire
+		(pts
 			(xy 127 156.21) (xy 123.19 156.21)
 		)
 		(stroke
@@ -5511,6 +5521,16 @@
 			(type default)
 		)
 		(uuid "66fa329b-e7e1-4046-b82c-8060987b9e15")
+	)
+	(wire
+		(pts
+			(xy 222.25 116.84) (xy 222.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f93d01-2961-4f94-8fb2-ecc1f3df433c")
 	)
 	(wire
 		(pts
@@ -6194,6 +6214,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 107.95) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53f7d28-3aa6-4ebb-988b-8cb28ee2714c")
+	)
+	(wire
+		(pts
 			(xy 127 105.41) (xy 123.19 105.41)
 		)
 		(stroke
@@ -6411,6 +6441,16 @@
 			(type default)
 		)
 		(uuid "faba2dcc-8a86-4034-a9b8-64a20256d2e4")
+	)
+	(wire
+		(pts
+			(xy 222.25 125.73) (xy 222.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf98e49-2510-4011-8721-09a53e6881b8")
 	)
 	(wire
 		(pts
@@ -7869,7 +7909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07516537-ca40-48e0-8c83-a6726731b098")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 237.236 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,7 +7984,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8705,7 +8745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2aef6574-3a42-4e4a-baeb-76348cd9bc66")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 261.62 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8765,7 +8805,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec6700a-e36a-4ced-ba4e-2ccc88b32437")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 246.38 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9321,7 +9361,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9527,7 +9567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "452c2330-a80b-4335-bd89-0fd9e3f85a0c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 260.35 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9588,7 +9628,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10095,7 +10135,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6a93d5a1-c186-47a6-bfa2-251d0297d3f9")
 		(property "Reference" "R1"
 			(at 21.844 104.394 90)
@@ -10248,6 +10288,84 @@
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73748a9e-d201-49ec-aab8-527f81c1fe66")
+		(property "Reference" "#PWR026"
+			(at 222.25 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "819003b8-584a-4905-a5d1-0716e7312905")
+		)
+		(instances
+			(project "RB-347"
+				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10748,7 +10866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8415698f-2eab-4b12-bfbf-3198d92e121b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 260.35 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10809,7 +10927,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11525,7 +11643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2bf5698-0922-41cc-9a87-13bbade9ab4d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 261.62 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11586,7 +11704,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11840,7 +11958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b53ae0d9-c424-4d22-86a9-b0fe12493513")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 260.35 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11900,7 +12018,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11918,7 +12036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b53c8ffe-bfab-4c8b-bee2-091f35d792e1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 246.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11979,7 +12097,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11997,7 +12115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6fceee6-b47f-4012-b4fb-8abb23382105")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 260.35 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12058,7 +12176,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12437,7 +12555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb77bb2d-3c57-48af-b973-3cfc2327bfce")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 243.84 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12512,7 +12630,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12529,7 +12647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc05344b-2fa9-48a0-bea3-385f4b8c586a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 260.35 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12589,7 +12707,7 @@
 		(instances
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13335,6 +13453,96 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:5.1k_0603")
+		(at 222.25 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebdeffd2-41b8-47f6-9a1e-ed227e71da60")
+		(property "Reference" "R8"
+			(at 225.806 113.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 225.044 115.316 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 226.568 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 231.14 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-12083"
+			(at 228.854 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9aad5eb3-4553-4b73-aa44-5d8080feaa35")
+		)
+		(pin "1"
+			(uuid "2d4b07b3-b32a-4aa7-9428-fd573c22669c")
+		)
+		(instances
+			(project "RB-347"
+				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:0.1uF_0603_25V_20%")
 		(at 34.29 113.03 0)
 		(unit 1)
@@ -13523,6 +13731,88 @@
 			(project "RB-347"
 				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_0402_Red")
+		(at 222.25 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9c5d1e5-67f5-4a08-b4e3-033101146c6e")
+		(property "Reference" "LED2"
+			(at 227.33 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER"
+			(at 227.33 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-LED:LED_0402_1005Metric_Red"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red SMD LED, 0402, Alternate KiCad Library"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6087e4f3-17eb-494b-9c50-cef42a92f0f7")
+		)
+		(pin "2"
+			(uuid "00fa9977-e6c6-4a7e-b934-2e80b9ba4b19")
+		)
+		(instances
+			(project "RB-347"
+				(path "/b82c4f68-8e88-411b-b389-03a0d157495a"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
