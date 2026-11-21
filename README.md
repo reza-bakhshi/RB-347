@@ -21,6 +21,18 @@ hardware interfaces through one device. This allows compatible protocols to be
 used at the same time, subject to the CH347F operating mode, pin multiplexing,
 driver, and host-software support.
 
+## Start here
+
+This repository contains the KiCad hardware design. Open [RB-347.kicad_pro](RB-347.kicad_pro) to inspect the schematic and PCB together.
+
+| Resource | Contents |
+|---|---|
+| [RB-347.kicad_sch](RB-347.kicad_sch) | Schematic entry point |
+| [RB-347.kicad_pcb](RB-347.kicad_pcb) | PCB layout |
+| [img](img) | Board renders |
+
+Host drivers and tools must support the selected CH347F operating mode. This repository contains hardware design files, rather than a bundled host application or a validated tool compatibility matrix.
+
 ## PCB gallery
 
 <table>
@@ -112,8 +124,7 @@ and turns off when they are disabled, providing a clear visual status.
 - Automated hardware testing and production fixtures
 - Protocol bridging and embedded-system development
 
----
 
-<div align="center">
-  <sub>Built as a compact, versatile interface for embedded development and debugging.</sub>
-</div>
+## License status
+
+No license file is currently included. Contact the maintainer to clarify reuse and redistribution terms for the hardware design and bundled resources.
